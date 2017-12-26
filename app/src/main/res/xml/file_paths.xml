@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <root-path
+            name="camera_photos"
+            path="" />
+    </paths>
+    <paths><external-path
+        name="download"
+        path="Download" />//指向外部存储要共享的目录 .代表所有
+    </paths>
+</resources>
