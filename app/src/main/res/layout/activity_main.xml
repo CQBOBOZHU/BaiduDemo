@@ -95,7 +95,13 @@
                     android:visibility="gone"
                     tools:layout_editor_absoluteX="209dp"
                     tools:layout_editor_absoluteY="135dp" />
-
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自定义识别(正方体和长方形)"
+                    tools:layout_editor_absoluteX="209dp"
+                    tools:layout_editor_absoluteY="135dp" />
             </RadioGroup>
         </LinearLayout>
 

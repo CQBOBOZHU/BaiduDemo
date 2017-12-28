@@ -31,6 +31,8 @@ import com.zhu.baidu.baidudemo.util.ToastUtil;
 import java.io.FileNotFoundException;
 import java.net.UnknownHostException;
 import java.net.UnknownServiceException;
+import java.util.HashMap;
+import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -98,6 +100,12 @@ public class MainActivity extends BaseTakePhotoActivity {
                 break;
             case R.id.radioButton6:
                 observable = apiService.object_detect(image, 1, token);
+                break;
+            case R.id.radioButton7:
+                Map<String, Object> map = new HashMap<>();
+                map.put("image", image);
+                map.put("top_num", 3);
+                observable = apiService.cuUrl(map, token);
                 break;
             default:
                 observable = apiService.logo(image, false, token);

@@ -34,4 +34,9 @@ public class Api {
      * logo商标识别
      */
     public static final String  logo="rest/2.0/image-classify/v2/logo";
+
+    /**
+     *  自定义识别
+     */
+    public static final String CU_URL="rpc/2.0/ai_custom/v1/classification/model_642";
 }

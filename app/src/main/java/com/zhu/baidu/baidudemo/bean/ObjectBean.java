@@ -76,4 +76,6 @@ public class ObjectBean {
             this.left = left;
         }
     }
+
+
 }
